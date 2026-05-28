@@ -19,12 +19,12 @@ export function Navbar() {
   const { lang, setLang, t } = useI18n();
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-ink/82 backdrop-blur-xl">
-      <nav className="container flex h-20 items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
-          <Image src="/assets/brands/trinetra-mark.svg" alt="Trinetra Enterprises logo" width={44} height={44} className="h-11 w-11 rounded-lg shadow-glow" priority />
-          <span>
-            <span className="block font-display text-lg font-black tracking-wide">{business.name}</span>
-            <span className="block text-xs uppercase text-white/55">{t("N Durga Prasad")}</span>
+      <nav className="container flex h-20 items-center justify-between gap-3">
+        <a href="#" className="flex min-w-0 flex-1 items-center gap-3 lg:flex-none">
+          <Image src="/assets/brands/trinetra-mark.svg" alt="Trinetra Enterprises logo" width={44} height={44} className="h-11 w-11 shrink-0 rounded-lg shadow-glow" priority />
+          <span className="min-w-0">
+            <span className="block truncate font-display text-base font-black tracking-wide sm:text-lg">{business.name}</span>
+            <span className="block truncate text-[11px] uppercase text-white/55 sm:text-xs">{t("N Durga Prasad")}</span>
           </span>
         </a>
         <div className="hidden items-center gap-7 lg:flex">
@@ -45,7 +45,7 @@ export function Navbar() {
             <Phone className="h-4 w-4" /> {t("Call Now")}
           </a>
         </div>
-        <button aria-label="Open menu" onClick={() => setOpen(true)} className="grid h-11 w-11 place-items-center rounded-lg border border-white/10 lg:hidden">
+        <button aria-label="Open menu" onClick={() => setOpen(true)} className="grid h-11 w-11 shrink-0 place-items-center rounded-lg border border-white/10 bg-white/5 lg:hidden">
           <Menu className="h-6 w-6" />
         </button>
       </nav>
@@ -59,11 +59,15 @@ export function Navbar() {
           </div>
           <div className="mt-10 grid gap-4">
             {links.map(([label, href]) => (
-            <a key={href} onClick={() => setOpen(false)} href={href} className="rounded-lg border border-white/10 bg-white/5 p-4 text-lg font-bold">
+              <a key={href} onClick={() => setOpen(false)} href={href} className="rounded-lg border border-white/10 bg-white/5 p-4 text-lg font-bold">
                 {t(label)}
               </a>
             ))}
-            <button onClick={() => setLang(lang === "en" ? "kn" : "en")} className="rounded-lg border border-white/10 bg-ember p-4 text-lg font-bold">
+            <a href={business.instagram} className="flex items-center justify-center gap-3 rounded-lg border border-ember/50 bg-ember/20 p-4 text-lg font-black text-white shadow-glow">
+              <Instagram className="h-6 w-6 text-ember" />
+              Instagram
+            </a>
+            <button onClick={() => setLang(lang === "en" ? "kn" : "en")} className="rounded-lg border border-ember/50 bg-ember p-4 text-lg font-black shadow-glow">
               {lang === "en" ? "ಕನ್ನಡಕ್ಕೆ ಬದಲಿಸಿ" : "Change to English"}
             </button>
           </div>
