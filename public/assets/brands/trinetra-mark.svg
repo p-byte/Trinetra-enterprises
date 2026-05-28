@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Trinetra Enterprises Mark</title>
+  <desc id="desc">Third-eye security shield logo mark.</desc>
+  <defs>
+    <linearGradient id="red" x1="20" x2="140" y1="12" y2="152" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff3147"/>
+      <stop offset=".54" stop-color="#e11d2f"/>
+      <stop offset="1" stop-color="#8f101c"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="34" fill="#050507"/>
+  <path d="M29 109V37c0-9 7-16 16-16h73c9 0 17 8 17 17v51c0 14-8 27-20 33l-36 19-35-19c-9-5-15-15-15-26z" fill="#11131a" stroke="url(#red)" stroke-width="7"/>
+  <path d="M42 79c23-27 54-27 77 0-23 27-54 27-77 0z" fill="#f8fafc"/>
+  <circle cx="80" cy="79" r="25" fill="#050507"/>
+  <circle cx="80" cy="79" r="15" fill="url(#red)"/>
+  <circle cx="80" cy="79" r="6" fill="#ffffff"/>
+  <path d="M59 50h42M57 112h46" stroke="#e11d2f" stroke-width="8" stroke-linecap="round"/>
+</svg>

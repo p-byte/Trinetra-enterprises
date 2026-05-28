@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050507"/><stop offset=".5" stop-color="#11131a"/><stop offset="1" stop-color="#8f101c"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".55"/></filter></defs>
+  <rect width="1200" height="760" fill="url(#g)"/>
+  <circle cx="930" cy="160" r="220" fill="#e11d2f" opacity=".22"/>
+  <circle cx="210" cy="610" r="260" fill="#ffffff" opacity=".04"/>
+  <g filter="url(#s)">
+    <rect x="135" y="130" width="360" height="220" rx="26" fill="#181b24" stroke="#ffffff" stroke-opacity=".16"/>
+    <rect x="164" y="160" width="302" height="162" rx="18" fill="#050507"/>
+    <path d="M207 290h216" stroke="#e11d2f" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="315" cy="238" r="56" fill="#222631" stroke="#e11d2f" stroke-width="10"/>
+    <circle cx="315" cy="238" r="20" fill="#f8fafc"/>
+    <rect x="262" y="350" width="108" height="44" rx="10" fill="#242936"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="600" y="115" width="300" height="110" rx="34" fill="#f8fafc"/>
+    <rect x="650" y="225" width="68" height="54" rx="10" fill="#cbd5e1"/>
+    <circle cx="856" cy="170" r="35" fill="#11131a"/>
+    <circle cx="856" cy="170" r="13" fill="#e11d2f"/>
+    <path d="M632 142h140" stroke="#11131a" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="760" y="345" width="185" height="250" rx="28" fill="#e11d2f"/>
+    <rect x="807" y="390" width="90" height="80" rx="14" fill="#f8fafc"/>
+    <path d="M818 515h70M818 545h70" stroke="#f8fafc" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="245" y="500" width="330" height="185" rx="24" fill="#151923" stroke="#fff" stroke-opacity=".16"/>
+    <rect x="274" y="526" width="272" height="112" rx="14" fill="#050507"/>
+    <path d="M290 655h240" stroke="#f8fafc" stroke-width="18" stroke-linecap="round"/>
+    <path d="M328 568h164" stroke="#e11d2f" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#s)">
+    <path d="M970 465c32 0 58 26 58 58v74H912v-74c0-32 26-58 58-58z" fill="#f8fafc"/>
+    <path d="M970 386v78" stroke="#e11d2f" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="970" cy="360" r="44" fill="#f8fafc" stroke="#e11d2f" stroke-width="10"/>
+  </g>
+</svg>

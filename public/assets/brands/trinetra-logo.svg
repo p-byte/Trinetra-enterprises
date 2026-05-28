@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Trinetra Enterprises Logo</title>
+  <desc id="desc">Premium red, black and white third-eye security lens logo for Trinetra Enterprises.</desc>
+  <defs>
+    <linearGradient id="red" x1="32" x2="188" y1="28" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff3147"/>
+      <stop offset=".52" stop-color="#e11d2f"/>
+      <stop offset="1" stop-color="#8f101c"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000000" flood-opacity=".45"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#e11d2f" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <rect width="720" height="220" rx="42" fill="#050507"/>
+  <path d="M31 165V55c0-13 11-24 24-24h118c14 0 26 12 26 26v78c0 20-11 38-28 47l-57 30-57-30c-16-9-26-26-26-45z" fill="#11131a" stroke="url(#red)" stroke-width="8" filter="url(#shadow)"/>
+  <path d="M55 109c35-41 82-41 118 0-36 42-83 42-118 0z" fill="url(#steel)"/>
+  <circle cx="114" cy="109" r="36" fill="#050507"/>
+  <circle cx="114" cy="109" r="22" fill="url(#red)"/>
+  <circle cx="114" cy="109" r="9" fill="#ffffff"/>
+  <path d="M83 64h62M78 154h72" stroke="#e11d2f" stroke-width="10" stroke-linecap="round"/>
+  <text x="240" y="94" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" letter-spacing="1">TRINETRA</text>
+  <text x="242" y="139" fill="#e11d2f" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="800" letter-spacing="4">ENTERPRISES</text>
+  <path d="M245 158h390" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+  <text x="244" y="184" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="1.2">CCTV • FIRE SAFETY • LIGHTING • ELECTRONICS</text>
+</svg>
